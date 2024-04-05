@@ -6,7 +6,7 @@ const BreakingNews = () => {
         <div className="bg-[#F3F3F3]">
             <div className="flex items-center">
                 <button className="btn btn-primary bg-pink-700 text-white hover:bg-pink-300">BreakingNews</button>
-                <Marquee pauseOnHover={true} speed={200}>
+                <Marquee pauseOnHover={true} speed={100}>
                     <Link className="mr-12" to="/">I can be a React component, multiple React components, or just some text.</Link>
                     <Link className="mr-12" to="/">I can be a React component, multiple React components, or just some text.</Link>
                     <Link to="/">I can be a React component, multiple React components, or just some text.</Link>

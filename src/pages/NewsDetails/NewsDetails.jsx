@@ -16,7 +16,7 @@ const NewsDetails = () => {
             <div className="grid md:grid-cols-4">
                 <div className="col-span-3">
                     <div className="card bg-base-100 shadow-xl">
-                        <figure><img src={soloNews.image_url} alt="Shoes" /></figure>
+                        <figure><img className="w-[100%]" src={soloNews.image_url} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className="card-title">Title{soloNews.title}</h2>
                             <p>{soloNews.details}</p>
